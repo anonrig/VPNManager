@@ -12,16 +12,6 @@
 		BB130517225BCCB6006E943D /* VPNAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB130516225BCCB6006E943D /* VPNAccount.swift */; };
 		BB130519225BCCFD006E943D /* VPNManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB130518225BCCFD006E943D /* VPNManager.swift */; };
 		BB13051B225BCDA6006E943D /* VPNConnectionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB13051A225BCDA6006E943D /* VPNConnectionProtocol.swift */; };
-		BB13052A225BD7B3006E943D /* maxminddb.h in Headers */ = {isa = PBXBuildFile; fileRef = BB130520225BD7B3006E943D /* maxminddb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB13052B225BD7B3006E943D /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = BB130521225BD7B3006E943D /* SimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB13052C225BD7B3006E943D /* maxminddb_config.h in Headers */ = {isa = PBXBuildFile; fileRef = BB130522225BD7B3006E943D /* maxminddb_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB13052D225BD7B3006E943D /* maxminddb.c in Sources */ = {isa = PBXBuildFile; fileRef = BB130523225BD7B3006E943D /* maxminddb.c */; };
-		BB13052E225BD7B3006E943D /* maxminddb_unions.c in Sources */ = {isa = PBXBuildFile; fileRef = BB130524225BD7B3006E943D /* maxminddb_unions.c */; };
-		BB13052F225BD7B3006E943D /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = BB130525225BD7B3006E943D /* SimplePing.m */; };
-		BB130530225BD7B3006E943D /* maxminddb_unions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB130526225BD7B3006E943D /* maxminddb_unions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB130531225BD7B3006E943D /* MMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB130527225BD7B3006E943D /* MMDB.swift */; };
-		BB130532225BD7B3006E943D /* maxminddb-compat-util.h in Headers */ = {isa = PBXBuildFile; fileRef = BB130528225BD7B3006E943D /* maxminddb-compat-util.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB130533225BD7B3006E943D /* MMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = BB130529225BD7B3006E943D /* MMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB130535225BD9EF006E943D /* VPNConnectionErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB130534225BD9EF006E943D /* VPNConnectionErrorType.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,16 +23,6 @@
 		BB130516225BCCB6006E943D /* VPNAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNAccount.swift; sourceTree = "<group>"; };
 		BB130518225BCCFD006E943D /* VPNManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNManager.swift; sourceTree = "<group>"; };
 		BB13051A225BCDA6006E943D /* VPNConnectionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNConnectionProtocol.swift; sourceTree = "<group>"; };
-		BB130520225BD7B3006E943D /* maxminddb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maxminddb.h; sourceTree = "<group>"; };
-		BB130521225BD7B3006E943D /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
-		BB130522225BD7B3006E943D /* maxminddb_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maxminddb_config.h; sourceTree = "<group>"; };
-		BB130523225BD7B3006E943D /* maxminddb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = maxminddb.c; sourceTree = "<group>"; };
-		BB130524225BD7B3006E943D /* maxminddb_unions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = maxminddb_unions.c; sourceTree = "<group>"; };
-		BB130525225BD7B3006E943D /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
-		BB130526225BD7B3006E943D /* maxminddb_unions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maxminddb_unions.h; sourceTree = "<group>"; };
-		BB130527225BD7B3006E943D /* MMDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMDB.swift; sourceTree = "<group>"; };
-		BB130528225BD7B3006E943D /* maxminddb-compat-util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "maxminddb-compat-util.h"; sourceTree = "<group>"; };
-		BB130529225BD7B3006E943D /* MMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDB.h; sourceTree = "<group>"; };
 		BB130534225BD9EF006E943D /* VPNConnectionErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNConnectionErrorType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +56,6 @@
 		BB130507225BCC1E006E943D /* VPNManager */ = {
 			isa = PBXGroup;
 			children = (
-				BB13051E225BD79D006E943D /* SupportingFiles */,
 				BB130512225BCC51006E943D /* Model */,
 				BB130513225BCC6A006E943D /* Service */,
 				BB130508225BCC1E006E943D /* VPNManager.h */,
@@ -104,31 +83,6 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		BB13051E225BD79D006E943D /* SupportingFiles */ = {
-			isa = PBXGroup;
-			children = (
-				BB13051F225BD7A7006E943D /* MMDB */,
-			);
-			path = SupportingFiles;
-			sourceTree = "<group>";
-		};
-		BB13051F225BD7A7006E943D /* MMDB */ = {
-			isa = PBXGroup;
-			children = (
-				BB130522225BD7B3006E943D /* maxminddb_config.h */,
-				BB130524225BD7B3006E943D /* maxminddb_unions.c */,
-				BB130526225BD7B3006E943D /* maxminddb_unions.h */,
-				BB130528225BD7B3006E943D /* maxminddb-compat-util.h */,
-				BB130523225BD7B3006E943D /* maxminddb.c */,
-				BB130520225BD7B3006E943D /* maxminddb.h */,
-				BB130529225BD7B3006E943D /* MMDB.h */,
-				BB130527225BD7B3006E943D /* MMDB.swift */,
-				BB130521225BD7B3006E943D /* SimplePing.h */,
-				BB130525225BD7B3006E943D /* SimplePing.m */,
-			);
-			path = MMDB;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -137,12 +91,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB13050A225BCC1E006E943D /* VPNManager.h in Headers */,
-				BB130532225BD7B3006E943D /* maxminddb-compat-util.h in Headers */,
-				BB13052C225BD7B3006E943D /* maxminddb_config.h in Headers */,
-				BB13052A225BD7B3006E943D /* maxminddb.h in Headers */,
-				BB130530225BD7B3006E943D /* maxminddb_unions.h in Headers */,
-				BB130533225BD7B3006E943D /* MMDB.h in Headers */,
-				BB13052B225BD7B3006E943D /* SimplePing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB13052E225BD7B3006E943D /* maxminddb_unions.c in Sources */,
-				BB13052D225BD7B3006E943D /* maxminddb.c in Sources */,
 				BB130515225BCC80006E943D /* VPNProtocolType.swift in Sources */,
 				BB13051B225BCDA6006E943D /* VPNConnectionProtocol.swift in Sources */,
 				BB130517225BCCB6006E943D /* VPNAccount.swift in Sources */,
 				BB130519225BCCFD006E943D /* VPNManager.swift in Sources */,
-				BB13052F225BD7B3006E943D /* SimplePing.m in Sources */,
-				BB130531225BD7B3006E943D /* MMDB.swift in Sources */,
 				BB130535225BD9EF006E943D /* VPNConnectionErrorType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
