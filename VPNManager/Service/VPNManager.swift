@@ -24,10 +24,6 @@ open class VPNManager {
         return manager.connection.status
     }
     
-    public lazy var mmdb: MMDB? = {
-        return MMDB()
-    }()
-    
     public class var shared: VPNManager {
         return instance
     }
