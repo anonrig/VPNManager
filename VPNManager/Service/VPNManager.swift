@@ -14,7 +14,7 @@ private let instance = VPNManager()
 
 open class VPNManager {
     
-    var delegate : VPNManagerDelegate!
+    public var delegate : VPNManagerDelegate!
     
     private var manager: NEVPNManager {
         return NEVPNManager.shared()
