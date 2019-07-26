@@ -1,4 +1,4 @@
-VPNManager ![cocoapods](https://img.shields.io/cocoapods/v/VPNManager.svg)[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) ![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg)
+BetterVPNManager ![cocoapods](https://img.shields.io/cocoapods/v/VPNManager.svg)[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) ![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg)
 ===========
 
 ### How to get started
@@ -12,7 +12,7 @@ platform :ios, '11.0'
 # You need to set target when you use CocoaPods 1.0.0 or later.
 target 'SampleTarget' do
   use_frameworks!
-  pod 'VPNManager'
+  pod 'BetterVPNManager'
 end
 ```
 
@@ -20,14 +20,14 @@ end
 
 ``` swift
 //Import Framework
-import VPNManager
+import BetterVPNManager
 
 //Create your VPN Manager variable
 let vpn = VPNManager.shared
 vpn.delegate = self 
 
 //Create your VPN Account and configurations
-let vpnAccount = VPNAccount(id: "UNIQUE ID", type: VPNProtocolType.IKEv2, title: "TITLE SEEN IN SETTINGS", server: "IP HERE", account: "bd2147240ab2471d", groupName: "Group Name Of Your VPN", remoteId: "Remote IP Address(Same most of the time)", alwaysOn: true)
+let vpnAccount = VPNAccount(type: VPNProtocolType.IKEv2, title: "TITLE SEEN IN SETTINGS", server: "IP HERE", account: "bd2147240ab2471d", groupName: "Group Name Of Your VPN", remoteId: "Remote IP Address(Same most of the time)", alwaysOn: true)
 
 //Set your account password and secret
 vpnAccount.passwordRef = "YourVPNPassword".data(using: .utf8)
