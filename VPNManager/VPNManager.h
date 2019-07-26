@@ -1,11 +1,3 @@
-//
-//  VPNManager.h
-//  VPNManager
-//
-//  Created by Kaan Baris BAYRAK on 8.04.2019.
-//  Copyright © 2019 Kaan Barış Bayrak. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
 //! Project version number for VPNManager.
