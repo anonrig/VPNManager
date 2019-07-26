@@ -106,7 +106,7 @@ open class VPNManager {
     public func connect() {
         do {
             try self.manager.connection.startVPNTunnel()
-            self.delegate.VpnManagerDisconnected()
+            self.delegate.VpnManagerConnected()
         } catch NEVPNError.configurationInvalid {
             self.delegate.VpnManagerConnectionFailed(error: VPNCollectionErrorType.ConfigurationInvalid, localizedDescription: "Configuration Invalid")
         } catch NEVPNError.configurationDisabled {
